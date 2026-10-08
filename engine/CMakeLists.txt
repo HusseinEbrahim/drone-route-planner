@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(planner_core
     src/grid.cpp
     src/pathfinding.cpp
+    src/planner.cpp
 )
 target_include_directories(planner_core PUBLIC src)
 

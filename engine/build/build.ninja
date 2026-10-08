@@ -60,6 +60,14 @@ build CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj: CXX_COMPILER__planner
   OBJECT_FILE_DIR = CMakeFiles\planner_core.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\planner_core.dir
 
+build CMakeFiles/planner_core.dir/src/planner.cpp.obj: CXX_COMPILER__planner_core_unscanned_ C$:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src/planner.cpp || cmake_object_order_depends_target_planner_core
+  DEP_FILE = CMakeFiles\planner_core.dir\src\planner.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -IC:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src
+  OBJECT_DIR = CMakeFiles\planner_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\planner_core.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\planner_core.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target planner_core
@@ -68,7 +76,7 @@ build CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj: CXX_COMPILER__planner
 #############################################
 # Link the static library libplanner_core.a
 
-build libplanner_core.a: CXX_STATIC_LIBRARY_LINKER__planner_core_ CMakeFiles/planner_core.dir/src/grid.cpp.obj CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj
+build libplanner_core.a: CXX_STATIC_LIBRARY_LINKER__planner_core_ CMakeFiles/planner_core.dir/src/grid.cpp.obj CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj CMakeFiles/planner_core.dir/src/planner.cpp.obj
   OBJECT_DIR = CMakeFiles\planner_core.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
