@@ -3,7 +3,10 @@
 	[
 		"C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/cmake_install.cmake",
 		"C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/_deps/httplib-build/cmake_install.cmake",
-		"C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/_deps/json-build/cmake_install.cmake"
+		"C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/_deps/json-build/cmake_install.cmake",
+		"C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/_deps/googletest-build/googletest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,0 +1,22 @@
+# ninja log v7
+24	1381	8131686580529682	CMakeFiles/planner_core.dir/src/grid.cpp.obj	36a6f307168df744
+146	2524	8131686581775813	CMakeFiles/planner.dir/src/main.cpp.obj	13355130756ab17d
+33	3130	8131686580629201	CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj	9da9a253b5abd421
+118	4831	8131686581506536	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	9854ebaaddaa1842
+44	5149	8131686580750988	CMakeFiles/planner_core.dir/src/planner.cpp.obj	b8117dede450bd45
+1386	5932	8131686594152719	CMakeFiles/benchmark.dir/src/benchmark.cpp.obj	24fbcdaccff1a69c
+5160	6395	8131686631901805	libplanner_core.a	71def86732c50149
+223	7238	8131686582613563	CMakeFiles/planner_tests.dir/tests/test_pathfinding.cpp.obj	15ec513285ec0ba4
+6402	7288	8131686644438500	planner.exe	728880540efde237
+6466	7300	8131686645625381	benchmark.exe	56ab8a042373404c
+2548	7328	8131686606370064	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	596639d2775435fb
+252	8470	8131686582922752	CMakeFiles/planner_tests.dir/tests/test_planner.cpp.obj	14980c79b24e80
+65	10739	8131686580955084	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	1789470fce2366e4
+13	24055	8131686580427687	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	a5d8355997c14485
+24057	24303	8131686820864817	lib/libgtest.a	2dcec27ea8478b8d
+24304	24515	8131686823329526	lib/libgmock.a	5b35e7b29991e6d5
+24320	24532	8131686823489097	lib/libgtest_main.a	7acfdd8e9515dae0
+24515	24751	8131686825447365	lib/libgmock_main.a	ae719fb906c32461
+24532	24938	8131686825616019	planner_tests.exe	27d00ec9ed2633aa
+188	30492	8131686582184720	CMakeFiles/server.dir/src/server.cpp.obj	6cb0138c972a46f1
+30493	30832	8131686885235910	server.exe	3306f5de37b848df

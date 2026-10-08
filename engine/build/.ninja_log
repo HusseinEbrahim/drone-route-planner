@@ -1,11 +1,24 @@
 # ninja log v7
 26	1118	8131661570729574	CMakeFiles/planner.dir/src/main.cpp.obj	c1e667268e6f357e
 1674	1991	8131661587198977	planner.exe	d7f9097bb95d286
-4	306	8131663957043148	build.ninja	bb0d3cdda03489f7
-4	306	8131663956913302	C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/cmake_install.cmake	bb0d3cdda03489f7
+4	306	8131686100987523	build.ninja	bb0d3cdda03489f7
+4	306	8131686100472909	C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/cmake_install.cmake	bb0d3cdda03489f7
 13	827	8131659717799507	CMakeFiles/planner_core.dir/src/grid.cpp.obj	5a9d58cdc16c4fad
 21	1210	8131659717881707	CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj	a7f6b1fd57e508b
 1458	1674	8131661585041985	libplanner_core.a	71def86732c50149
 16	1457	8131661570619509	CMakeFiles/planner_core.dir/src/planner.cpp.obj	e569330889a61ace
 14	13428	8131663958136237	CMakeFiles/server.dir/src/server.cpp.obj	d4e9b15504b11dfe
 13432	14047	8131664092324841	server.exe	11fb14fcd2e46288
+130	3171	8131686103641788	CMakeFiles/benchmark.dir/src/benchmark.cpp.obj	6b074ef0f7ae71da
+56	3920	8131686102863862	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	90ce0d66411458a5
+3173	3922	8131686134037705	benchmark.exe	e3b5080bc032ebb3
+98	3951	8131686103272775	CMakeFiles/planner_tests.dir/tests/test_pathfinding.cpp.obj	7f26b05482b2f1f2
+157	3957	8131686103891122	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	d8601ca6b8aa4d70
+112	4004	8131686103432345	CMakeFiles/planner_tests.dir/tests/test_planner.cpp.obj	70dabc18c78267eb
+36	5541	8131686102664361	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	f838173177e06701
+24	11474	8131686102531929	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d7f340f7a1d79a1d
+11475	11906	8131686217047982	lib/libgtest.a	2dcec27ea8478b8d
+11919	12105	8131686221483056	lib/libgtest_main.a	7acfdd8e9515dae0
+11906	12153	8131686221362952	lib/libgmock.a	5b35e7b29991e6d5
+12153	12333	8131686223824857	lib/libgmock_main.a	ae719fb906c32461
+12105	12651	8131686223350306	planner_tests.exe	d0749801f7986b0b
