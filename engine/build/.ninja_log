@@ -1,3 +1,10 @@
 # ninja log v7
 9	754	8131656633133436	CMakeFiles/planner.dir/src/main.cpp.obj	57feae13bcf42360
 760	1009	8131656640638789	planner.exe	6c82051d1264a6bd
+8	303	8131659717253278	build.ninja	bb0d3cdda03489f7
+8	303	8131659717253278	C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/cmake_install.cmake	bb0d3cdda03489f7
+13	827	8131659717799507	CMakeFiles/planner_core.dir/src/grid.cpp.obj	5a9d58cdc16c4fad
+31	985	8131659717991423	CMakeFiles/planner.dir/src/main.cpp.obj	c1e667268e6f357e
+21	1210	8131659717881707	CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj	a7f6b1fd57e508b
+1211	2084	8131659729780530	libplanner_core.a	bcf10240689b30ac
+2085	2306	8131659738517107	planner.exe	d7f9097bb95d286

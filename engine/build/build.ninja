@@ -36,17 +36,59 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build/
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target planner_core
+
+
+#############################################
+# Order-only phony target for planner_core
+
+build cmake_object_order_depends_target_planner_core: phony || .
+
+build CMakeFiles/planner_core.dir/src/grid.cpp.obj: CXX_COMPILER__planner_core_unscanned_ C$:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src/grid.cpp || cmake_object_order_depends_target_planner_core
+  DEP_FILE = CMakeFiles\planner_core.dir\src\grid.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -IC:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src
+  OBJECT_DIR = CMakeFiles\planner_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\planner_core.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\planner_core.dir
+
+build CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj: CXX_COMPILER__planner_core_unscanned_ C$:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src/pathfinding.cpp || cmake_object_order_depends_target_planner_core
+  DEP_FILE = CMakeFiles\planner_core.dir\src\pathfinding.cpp.obj.d
+  FLAGS = -std=gnu++20
+  INCLUDES = -IC:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src
+  OBJECT_DIR = CMakeFiles\planner_core.dir
+  OBJECT_FILE_DIR = CMakeFiles\planner_core.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\planner_core.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target planner_core
+
+
+#############################################
+# Link the static library libplanner_core.a
+
+build libplanner_core.a: CXX_STATIC_LIBRARY_LINKER__planner_core_ CMakeFiles/planner_core.dir/src/grid.cpp.obj CMakeFiles/planner_core.dir/src/pathfinding.cpp.obj
+  OBJECT_DIR = CMakeFiles\planner_core.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libplanner_core.a
+  TARGET_PDB = planner_core.a.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\planner_core.dir
+
+# =============================================================================
 # Object build statements for EXECUTABLE target planner
 
 
 #############################################
 # Order-only phony target for planner
 
-build cmake_object_order_depends_target_planner: phony || .
+build cmake_object_order_depends_target_planner: phony || cmake_object_order_depends_target_planner_core
 
 build CMakeFiles/planner.dir/src/main.cpp.obj: CXX_COMPILER__planner_unscanned_ C$:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src/main.cpp || cmake_object_order_depends_target_planner
   DEP_FILE = CMakeFiles\planner.dir\src\main.cpp.obj.d
   FLAGS = -std=gnu++20
+  INCLUDES = -IC:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/src
   OBJECT_DIR = CMakeFiles\planner.dir
   OBJECT_FILE_DIR = CMakeFiles\planner.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\planner.dir
@@ -59,8 +101,8 @@ build CMakeFiles/planner.dir/src/main.cpp.obj: CXX_COMPILER__planner_unscanned_ 
 #############################################
 # Link the executable planner.exe
 
-build planner.exe: CXX_EXECUTABLE_LINKER__planner_ CMakeFiles/planner.dir/src/main.cpp.obj
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+build planner.exe: CXX_EXECUTABLE_LINKER__planner_ CMakeFiles/planner.dir/src/main.cpp.obj | libplanner_core.a || libplanner_core.a
+  LINK_LIBRARIES = libplanner_core.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\planner.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -97,6 +139,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build planner: phony planner.exe
 
+build planner_core: phony libplanner_core.a
+
 # =============================================================================
 # Folder targets.
 
@@ -105,7 +149,7 @@ build planner: phony planner.exe
 #############################################
 # Folder: C:/Users/Admin/OneDrive/Desktop/drone-route-planner/engine/build
 
-build all: phony planner.exe
+build all: phony libplanner_core.a planner.exe
 
 # =============================================================================
 # Built-in targets
